@@ -1,0 +1,53 @@
+/* Üldine vormi stiil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+form {
+    width: 300px;
+}
+
+/* Vormide pealkiri */
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Vormielemendid */
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"], 
+input[type="password"],
+textarea,
+select {
+    width: 200px;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"]:disabled {
+    background: #f4f4f4;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-top: 10px;
+}
+
+/* Nupud */
+button {
+    margin-top: 10px;
+    padding: 5px 15px;
+    border: 1px solid #aaa;
+    background: #f4f4f4;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ddd;
+}
