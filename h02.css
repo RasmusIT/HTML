@@ -1,0 +1,31 @@
+/* Üldised stiilid */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Päis */
+header {
+    background: #0073e6;
+    color: white;
+    padding: 20px;
+}
+
+/* Peamine sisu */
+main {
+    padding: 20px;
+}
+
+/* Jalus */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
